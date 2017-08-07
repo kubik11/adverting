@@ -1,6 +1,9 @@
 $(function() {
 
 	$(document).ready(function(){
+
+		//Carousel
+
 		$('.owl-carousel').owlCarousel({
 		loop: true,
 		//dots: false,
@@ -9,6 +12,11 @@ $(function() {
 		items: 1,
 		navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		});
+
+		//equalHeights
+		$('.sc-slogans-inner').equalHeights();
+		$('.offer-text').equalHeights();
+
 	});
 
 });
