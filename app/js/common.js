@@ -16,6 +16,7 @@ $(function() {
 		//equalHeights
 		$('.sc-slogans-inner').equalHeights();
 		$('.offer-text').equalHeights();
+		$('.team-text').equalHeights();
 
 	});
 
