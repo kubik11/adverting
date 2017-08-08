@@ -17,7 +17,7 @@ $(function() {
 		$('.sc-slogans-inner').equalHeights();
 		$('.offer-text').equalHeights();
 		$('.team-text').equalHeights();
-
+		$('#Capa_1').children().children().css('fill', '#ffc000');
 	});
 
 });
