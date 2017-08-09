@@ -3,25 +3,148 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px)
+	.sc-slide .owl-carousel .owl-nav .owl-prev
+		left: 50px
+	.sc-slide .owl-carousel .owl-nav .owl-next
+		right: 50px
+@media only screen and (max-width : 1360px)
+	.sc-slide .owl-carousel .owl-nav .owl-prev
+		left: 15px
+		border: none
+	.sc-slide .owl-carousel .owl-nav .owl-next
+		right: 15px
+		border: none
+	.sc-slide .owl-carousel .owl-nav > div .fa
+    font-size: 40px
+@media only screen and (max-width : 1300px)
+	.sc-slide .owl-carousel .owl-nav
+		display: none
 @media only screen and (max-width : 1200px)
 	/**/
-
-
+	.top-line nav
+		display: none
+	.top-line .button
+		float: none
+	.top-line .inner-top-line .logo
+		display: inline-block
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after
+		background-color: #fff
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
-
-
+	.sc-slogans .col-md-3 .sc-slogans-inner 
+		margin-bottom: 60px
+	.sc-slogans .col-md-3:nth-child(3) .sc-slogans-inner
+		margin-bottom: 0px
+	.sc-slogans .col-md-3:nth-child(4) .sc-slogans-inner
+		margin-bottom: 0px
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	/**/
-
-
+	.sc-slogans .col-md-3 .sc-slogans-inner 
+		margin-bottom: 60px
+	.sc-slogans .col-md-3:nth-child(3) .sc-slogans-inner
+		margin-bottom: 60px
+	.sc-slogans .col-md-3:nth-child(4) .sc-slogans-inner
+		margin-bottom: 0px
+	.sc-slogans .sc-slogans-inner p
+		width: 80%
+		margin: 0 auto
+	.sc-about p
+		font-size: 14px
+	.sc-about .h2
+		font-size: 50px
+	.sc-offer .h2
+		font-size: 50px
+	.sc-offer .caption 
+		font-size: 14px
+	.sc-offer .offer-inner .offer-content
+		margin-left: 35%
+	.sc-team .team-inner
+		width: 70%
+		margin: 0 auto
+		margin-bottom: 60px
+	.sc-team .col-sm-4:nth-child(3) .team-inner
+		margin-bottom: 0px
+	.footer .footer-text
+		font-size: 14px
+	.footer .h3
+		font-size: 50px
+	.footer .h3 span
+		font-size: 50px
+	.sc-slide .owl-carousel .inner-item p
+		width: 80%
+		font-size: 20px
+	.sc-slide .owl-carousel .inner-item .h3
+		font-size: 50px
+	.sc-slide .owl-carousel .inner-item .h1 
+		font-size: 90px
+	.overlay nav ul li a
+		font-size: 34px
+	.footer 
+		padding: 100px 30px 120px
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/
-
-
+	.footer form input:first-child 
+		border-radius: 35px
+		color: #aaaaaa
+		display: block
+		font-size: 18px
+		max-width: 100%
+		padding: 20px 0 20px 30px
+		width: 100%
+	.footer form input:last-child 
+		background-color: #ffc000
+		border-radius: 35px
+		color: #fff
+		font-size: 18px
+		margin-top: 30px
+		max-width: 100%
+		padding: 20px 0
+		text-transform: uppercase
+		transition: all 0.5s ease 0s
+		width: 100%
+	.footer .h3
+		line-height: 1.5
+	.footer-bottom .footer-bottom-inner .footer-icons
+		text-align: center
+		display: block
+		float: none
+	.footer-bottom .footer-bottom-inner .reserved
+		text-align: center
+		display: block
+	.sc-team .h2
+		font-size: 50px
+	.sc-team .caption
+		padding: 0px 40px
+	.sc-offer .h2
+		font-size: 45px
+	.sc-about .video
+		min-height: 400px
+	.sc-slide .owl-carousel .inner-item .h3
+		font-size: 40px
+	.sc-slide .owl-carousel .inner-item .h1
+		font-size: 70px
+	.sc-slide .owl-carousel .inner-item p 
+		font-size: 16px
+		width: 57%
+	.top-line .inner-top-line .logo .h1 
+		font-size: 25px
+	.overlay nav ul
+		font-size: 50px
+	.top-line .inner-top-line .logo 
+		display: inline-block
+		left: 2%
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+	.top-line .button
+		display: none
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/
